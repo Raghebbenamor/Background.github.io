@@ -1,8 +1,11 @@
+var _ = require("lodash");
 var css = document.querySelector("h3") ;
 var color1 = document.getElementById("color1");
 var color2 = document.getElementById("color2");
 var body = document.getElementById("gradiant");
+var array = [1,2,3,4,5,6,7,8];
 
+console.log ("answear" , _.without(array,3));
 function SetGradient (){
   body.style.background = 
 	"linear-gradient(to right, " 
